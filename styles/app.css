@@ -17,6 +17,7 @@ h6 {
 p {
   font-family: var(--body-font);
   font-weight: normal;
+  font-size: 16px;
 }
 .hero {
   background: var(--secondary-color);
@@ -51,4 +52,41 @@ p {
 }
 .btn-branding:hover {
   background: var(--branding-color);
+}
+h3 {
+  font-size: 64px;
+}
+.btn-branding-outline {
+  background: transparent;
+  font-family: poppins, sans-serif;
+  font-weight: normal;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .col-sm-6 {
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .project-description {
+    padding: 0px;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 48px;
+  }
 }
